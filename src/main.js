@@ -3,9 +3,9 @@ import Vuetify from 'vuetify'
 import VueRouter from 'vue-router';
 import App from './App.vue';
 import User from './components/User.vue';
-import Blog from './components/Blog.vue';
-import Account from './components/Account.vue';
 import 'vuetify/dist/vuetify.min.css';
+import Resume from './components/Resume';
+import Projects from './components/Projects';
 
 require('../node_modules/materialize/materialize.css');
 require('../node_modules/css/style.css');
@@ -16,9 +16,9 @@ Vue.use(VueRouter);
 Vue.use(Vuetify);
 
 const routes = [
-  { path: '/blog', component: Blog },
-  { path: '/account', component: Account },
-  { path: '/', component: User }
+  { path: '/', component: User },
+  { path: '/resume', component: Resume },
+  { path: '/projects', component: Projects }
 ];
 
 const router = new VueRouter({
