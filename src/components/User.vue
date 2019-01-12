@@ -4,7 +4,7 @@
         <div class = "container-fluid">
           <div class = "row">
             <div class="col s12 m12 l6">
-              <img class="night professional-photo center-align" src="img/Stuart Hamblin Headshot website.jpg">
+              <img class="night professional-photo center-align" src="../assets/img/Stuart Hamblin Headshot website.jpg">
             </div>
             <div class="home-text valign-wrapper col s12 m6 l6 xl6 offset-m3">
               <div class="centered">

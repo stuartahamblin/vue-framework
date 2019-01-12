@@ -2,7 +2,7 @@
   <div id="app">
     <!--v-bind:class="{night: nightSwitch === true}"-->
     <div>
-      <img class = "background_image" src="img/pexels-photo-681335.jpeg">
+      <!--<img class = "background_image" src="./assets/img/pexels-photo-681335.jpeg">-->
     </div>
     <a href="#" @click.stop="drawer = !drawer">
       <i class="small material-icons top-left">menu</i>
