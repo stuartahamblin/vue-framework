@@ -1,14 +1,17 @@
 <template>
   <div class="container">
     <div class="resume-body">
-      <object data="../assets/pdf/minimal-resume.pdf" class="resume" ></object>
+      <object :data="pdf" class="resume" ></object>
     </div>
   </div>
 </template>
 
 <script>
+  import pdf from '../assets/pdf/minimal-resume.pdf'
+
     export default {
-        name: "Resume"
+        name: "Resume",
+      pdf: pdf
     }
 </script>
 

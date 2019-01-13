@@ -2,7 +2,7 @@
   <div id="app">
     <!--v-bind:class="{night: nightSwitch === true}"-->
     <div>
-      <!--<img class = "background_image" src="./assets/img/pexels-photo-681335.jpeg">-->
+      <img class = "background_image" :src="bgimage">
     </div>
     <a href="#" @click.stop="drawer = !drawer">
       <i class="small material-icons top-left">menu</i>
@@ -60,12 +60,15 @@
 
 <script>
 
+  import bgimage from './assets/img/pexels-photo-681335.jpg';
+
   export default {
     data () {
       return {
         drawer: null,
         checkbox: true,
         radioGroup: 1,
+        bgimage: bgimage
         // nightSwitch: false
       }
     }
